@@ -20,7 +20,6 @@ public class OrdenacionRapida extends Ordenacion {
 			int indicePartir = partir(v, posicionPivote, izq, der);
 			ordRapidaRec(v, izq, indicePartir - 1);
 			ordRapidaRec(v, indicePartir + 1, der);
-
 		}
 
 	}
